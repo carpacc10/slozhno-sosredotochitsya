@@ -19,3 +19,21 @@
   --hover-link: 1px solid var(--text-color);
   --title-background-color: var(--title-text-shadow);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url("/images/cover-image-light.png");
+    --title-color: #ffc2e6;
+    --title-text-shadow: #ff0070;
+    --background-color: #fff1f7;
+    --text-color: #353430;
+    --title-decor: #ff8dcb;
+    --topic-title-color: var(--text-color);
+    --section-title-color: var(--text-color);
+    --rec-color: var(--background-color);
+    --corner-color: var(--text-color);
+    --link-shadow: var(--title-decor);
+    --hover-link: 1px solid var(--text-color);
+    --title-background-color: var(--title-text-shadow);
+  }
+}
