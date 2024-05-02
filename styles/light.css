@@ -18,6 +18,7 @@
   --link-shadow: var(--title-decor);
   --hover-link: 1px solid var(--text-color);
   --title-background-color: var(--title-text-shadow);
+  --btn-opacity: rgba(53, 52, 48, .4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -35,5 +36,6 @@
     --link-shadow: var(--title-decor);
     --hover-link: 1px solid var(--text-color);
     --title-background-color: var(--title-text-shadow);
+    --btn-opacity: rgba(53, 52, 48, .4);
   }
 }

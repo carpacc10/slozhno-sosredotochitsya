@@ -21,4 +21,5 @@
   --hover-link: 1px solid var(--text-color);
   --title-background-color: var(--title-text-shadow);
   --title-decor: var(--title-text-shadow);
+  --btn-opacity: rgba(255, 0, 112, .4);
 }
